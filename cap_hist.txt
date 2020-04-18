@@ -1,0 +1,46 @@
+histogram: tensor([    0,     2,     0,     1,     0,     7,    42,    79,   183,   481,
+         1276,  5536, 15298, 11542, 13537, 11006,  9158,  8024,  6935,  5875,
+         4690,  4012,  3471,  2782,  2391,  2033,  1723,  1393,  1181,   922,
+          750,   661,   523,   421,   328,   266,   236,   183,   157,   121,
+           92,    96,    64,    61,    55,    50,    37,    35,    20,    18,
+           11,    12,    15,    11,    12,     6,    10,     7,     8,     5,
+            5,     2,     4,     3,     2,     1,     0,     1,     1,     2,
+            3,     2,     0,     1,     0,     0,     0,     1,     0,     0,
+            0,     0,     0,     0,     0,     0,     1])
+['0 captions with len:0', '2 captions with len:1', '0 captions with len:2', '1 captions with len:3', '0 captions with len:4', '7 captions with len:5', '42 captions with len:6', '79 captions with len:7', '183 captions with len:8', '481 captions with len:9', '1276 captions with len:10', '5536 captions with len:11', '15298 captions with len:12', '11542 captions with len:13', '13537 captions with len:14', '11006 captions with len:15', '9158 captions with len:16', '8024 captions with len:17', '6935 captions with len:18', '5875 captions with len:19', '4690 captions with len:20', '4012 captions with len:21', '3471 captions with len:22', '2782 captions with len:23', '2391 captions with len:24', '2033 captions with len:25', '1723 captions with len:26', '1393 captions with len:27', '1181 captions with len:28', '922 captions with len:29', '750 captions with len:30', '661 captions with len:31', '523 captions with len:32', '421 captions with len:33', '328 captions with len:34', '266 captions with len:35', '236 captions with len:36', '183 captions with len:37', '157 captions with len:38', '121 captions with len:39', '92 captions with len:40', '96 captions with len:41', '64 captions with len:42', '61 captions with len:43', '55 captions with len:44', '50 captions with len:45', '37 captions with len:46', '35 captions with len:47', '20 captions with len:48', '18 captions with len:49', '11 captions with len:50', '12 captions with len:51', '15 captions with len:52', '11 captions with len:53', '12 captions with len:54', '6 captions with len:55', '10 captions with len:56', '7 captions with len:57', '8 captions with len:58', '5 captions with len:59', '5 captions with len:60', '2 captions with len:61', '4 captions with len:62', '3 captions with len:63', '2 captions with len:64', '1 captions with len:65', '0 captions with len:66', '1 captions with len:67', '1 captions with len:68', '2 captions with len:69', '3 captions with len:70', '2 captions with len:71', '0 captions with len:72', '1 captions with len:73', '0 captions with len:74', '0 captions with len:75', '0 captions with len:76', '1 captions with len:77', '0 captions with len:78', '0 captions with len:79', '0 captions with len:80', '0 captions with len:81', '0 captions with len:82', '0 captions with len:83', '0 captions with len:84', '0 captions with len:85', '1 captions with len:86']
+top 10 caption counts and lengths:
+length: tensor(12) count: tensor(15298)
+length: tensor(14) count: tensor(13537)
+length: tensor(13) count: tensor(11542)
+length: tensor(15) count: tensor(11006)
+length: tensor(16) count: tensor(9158)
+length: tensor(17) count: tensor(8024)
+length: tensor(18) count: tensor(6935)
+length: tensor(19) count: tensor(5875)
+length: tensor(11) count: tensor(5536)
+length: tensor(20) count: tensor(4690)
+mean count: tensor(1354.9425)
+median count: 18 at lengths: 49
+max count: 15298 at lengths: 12
+min count: 0 at lengths: 85
+quantiles: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105]
+passed 5 % at length 11
+passed 10 % at length 12
+passed 15 % at length 12
+passed 20 % at length 13
+passed 25 % at length 13
+passed 30 % at length 14
+passed 35 % at length 14
+passed 40 % at length 14
+passed 45 % at length 15
+passed 50 % at length 15
+passed 55 % at length 16
+passed 60 % at length 17
+passed 65 % at length 18
+passed 70 % at length 18
+passed 75 % at length 19
+passed 80 % at length 21
+passed 85 % at length 22
+passed 90 % at length 24
+passed 95 % at length 28
+passed 100 % at length 86
